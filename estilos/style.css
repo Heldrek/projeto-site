@@ -7,6 +7,14 @@
 
  }
 
+ html,body{
+   height: 100%;
+ }
+
+ .clear{
+   clear: both;
+ }
+
  body{
     background-color: rgb(247, 236, 145);
  }
@@ -19,4 +27,21 @@
     box-shadow: 3px 3px 5px rgb(70, 69, 67);
  }
 
- 
+ header h1{
+   font-size: 31px;  
+   color: #473964;
+ }
+
+ article h2{
+   padding:20px 0;
+   font-size: 21px;
+   color: #4C3B71;
+ }
+
+ article p {
+   line-height: 28px;
+ }
+
+ img.lado{
+   float: right;
+ }
